@@ -35,7 +35,7 @@ The notebooks were written for Google Colab with a GPU runtime and Google Drive.
 2. In the scoring notebook, edit only the CONFIG cell:
    ```python
    LANG = "en"                                   # "en" = English (MedMCQA), "ar" = Arabic (MedAraBench)
-   MODEL_NAME = "Qwen/Qwen2.5-7B-Instruct"       # or "inceptionai/jais-adapted-7b-chat" in score_jais.ipynb
+   MODEL_NAME = "Qwen/Qwen2.5-7B-Instruct"       # or "inception42/jais-adapted-7b-chat" in score_jais.ipynb
    MEDARA_CSV = "<path to your MedAraBench test CSV>"   # only used when LANG = "ar"
    ```
    Run it once per language and model (four runs in total).
