@@ -46,7 +46,7 @@ The notebooks use paths such as `/content/drive/MyDrive/medqa_results/results/`.
 
 ## Result files
 
-Each scoring run writes one `.jsonl` file, named `{model}_{language}_{prompt_style}_seed{seed}_n{N}.jsonl` (for example `Qwen2.5-7B-Instruct_ar_no_prefill_seed42_n4927.jsonl`). One line holds one question: its id, the number of options `K`, the correct option, the predicted option, the confidence, the probability mass on the valid letters, the option probabilities and scores, the subject and the level. No question text is stored in these files. Files with `n50` in the name are small development runs and are not used in the paper.
+Each scoring run writes one `.jsonl` file, named `{model}_{language}_{prompt_style}_seed{seed}_n{N}.jsonl` (for example `Qwen2.5-7B-Instruct_ar_no_prefill_seed42_n4927.jsonl`). One line holds one question: its id, the number of options `K`, the correct option, the predicted option, the confidence, the probability mass on the valid letters, the option probabilities and scores, the subject and the level. No question text is stored in these files. Files with `n50` in the name are small development runs and are not used in the paper. The Jais file names also contain `union`, which marks the scoring that counts both the Latin and the Arabic spelling of each option letter.
 
 ## Data
 
