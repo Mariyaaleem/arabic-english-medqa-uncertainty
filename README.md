@@ -12,7 +12,7 @@ The study asks how well the confidence of two 7B language models matches their a
 | Model | Hugging Face id |
 |---|---|
 | Qwen2.5-7B | `Qwen/Qwen2.5-7B-Instruct` |
-| Jais-adapted-7B | `inceptionai/jais-adapted-7b-chat` |
+| Jais-adapted-7B | `inception42/jais-adapted-7b-chat` |
 
 Both models are loaded in 4-bit (NF4) and scored with one forward pass per question: the probability of each option letter is read from the next-token distribution, and no text is generated. The prompt style used for all reported runs is `no_prefill`. The random seed is 42.
 
