@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+
+# Secrets (never commit tokens)
+.env
+*.token
+secrets*
+
+# Datasets are not redistributed (licence terms)
+data/
+medarabench*.csv
+medarabench*/
+
+# Small development runs
+results/*n50*.jsonl
+
+# OS / editor
+.DS_Store
+.vscode/

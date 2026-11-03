@@ -1,0 +1,14 @@
+# The notebooks were run on Google Colab (GPU runtime), which already provides most of these.
+# Versions are not pinned: to pin them, run `pip freeze` in Colab and keep the lines for these packages.
+torch
+transformers
+accelerate
+bitsandbytes
+datasets
+huggingface_hub
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+tqdm
