@@ -4,7 +4,7 @@ type: software
 title: "Calibration and Conformal Prediction for Medical Question Answering in Arabic and English: A Cross-Lingual Study of LLM Uncertainty"
 authors:
   - given-names: "Mariya"
-repository-code: "https://github.com/mariya7040ai/arabic-english-medqa-uncertainty"
+repository-code: "https://github.com/Mariyaaleem/arabic-english-medqa-uncertainty"
 license: MIT
 version: "1.0"
 date-released: "2026-11-03"
