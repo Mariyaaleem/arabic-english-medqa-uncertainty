@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this code, please cite it as below."
 type: software
-title: "Calibration and Conformal Prediction for Medical Question Answering in Arabic and English: A Cross-Lingual Study of LLM Uncertainty"
+title: "Calibration and Conformal Prediction for Medical Question Answering in Arabic and English: Evidence from Two Non-Parallel Benchmarks"
 authors:
   - given-names: "Mariya"
 repository-code: "https://github.com/Mariyaaleem/arabic-english-medqa-uncertainty"
