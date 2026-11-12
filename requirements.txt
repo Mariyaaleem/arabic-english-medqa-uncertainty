@@ -1,5 +1,7 @@
 # The notebooks were run on Google Colab (GPU runtime), which already provides most of these.
-# Versions are not pinned: to pin them, run `pip freeze` in Colab and keep the lines for these packages.
+# Versions used for the paper (Table 1): Python 3.13, PyTorch 2.11, Transformers 5.22, Accelerate 1.15,
+# bitsandbytes 0.50.2, scikit-learn 1.6, SciPy 1.16, NumPy 2.4, pandas 2.2.
+# Versions are not pinned here; run `pip freeze` in Colab to pin them.
 torch
 transformers
 accelerate
