@@ -1,4 +1,4 @@
-# Calibration and conformal prediction for medical question answering in Arabic and English
+# Change it to match the paper exactly: Calibration and Conformal Prediction for Medical Question Answering in Arabic and English: Evidence from Two Non-Parallel Benchmarks.
 
 Code and summary results for the paper "Calibration and Conformal Prediction for Medical Question Answering in Arabic and English: A Cross-Lingual Study of LLM Uncertainty".
 
@@ -25,6 +25,7 @@ Both models are loaded in 4-bit (NF4) and scored with one forward pass per quest
 | `notebooks/score_jais.ipynb` | Scores Jais-adapted-7B, in English and Arabic. |
 | `notebooks/analyze_all.ipynb` | Computes accuracy, ECE and Brier score with 95% bootstrap confidence intervals, plus the conformal summary. Writes `summary_metrics.csv` and `summary_conformal.csv`. **All numbers in the paper come from this notebook.** |
 | `notebooks/rq3_rq4_conformal_selective_en.ipynb`, `notebooks/rq3_rq4_conformal_selective_ar.ipynb` | Conformal prediction sets, per-subject coverage and risk-coverage curves, for English and Arabic. These notebooks fit the temperature on 25% of the data, so their values can differ slightly from `analyze_all`. |
+|appendix_c_checks.py | Robustness checks of Appendix C from the saved .jsonl files: reproduction check of Tables 2 and 3, Latin-only versus union scoring (Table C1), bootstrap intervals for conformal coverage and set size (Table C2), and AUROC and AURC of the margin versus the maximum probability (Table C3). |
 | `results/summary_metrics.csv`, `results/summary_conformal.csv` | The summary tables written by `analyze_all`. |
 
 ## How to reproduce
