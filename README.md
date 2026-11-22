@@ -1,6 +1,6 @@
 # Calibration and conformal prediction for medical question answering in Arabic and English
 
-Code and summary results for the paper "Calibration and Conformal Prediction for Medical Question Answering in Arabic and English: Evidence from Two Non-Parallel Benchmarks".
+Code and summary results for the paper "Calibration and Conformal Prediction for Medical Question Answering in Arabic and English: Evidence from Two Non-Parallel Benchmarks".(Paper,arXiv:https://arxiv.org/abs/2611.16821)
 
 The study asks how well the confidence of two 7B language models matches their accuracy on medical multiple-choice questions in English and Arabic, and whether conformal prediction gives usable coverage guarantees in both languages. The two benchmarks are not parallel translations, so differences between languages are not attributed to language itself.
 
